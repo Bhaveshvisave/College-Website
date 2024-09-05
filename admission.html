@@ -1,0 +1,80 @@
+<html>
+<head>
+<link rel="stylesheet" href="./css/collegewebsite.css">
+<title>Admission</title>
+</head>
+<body class="body3">
+<p align="center"><h1 class="header">College Admission Form</h1><br>
+If you'd like to apply to our college, please fill in this College Admission Form and we will contact you as soon as possible.<br>
+<hr><br><br>
+<fieldset>
+<legend><b>DETAILS</legend>
+<form>
+<p>
+<label>Program Applied For:</label><br><br>
+<input type="radio" name="course" style="margin: 10px;" value="Information Technology">Information Technology<br>
+<input type="radio" name="course" style="margin: 10px;" value="Mechanical Engineering">Mechanical Engineering<br>
+<input type="radio" name="course" style="margin: 10px;" value="Civil Engineering">Civil Engineering<br>
+<input type="radio" name="course" style="margin: 10px;" value="Computer Engineering">Computer Engineering<br>
+<input type="radio" name="course" style="margin: 10px;" value="Electrical Engineering	">Electrical Engineering<br><br>
+
+<label>Student Name:</label><br>
+<input type="text" class="inputs" name="name" placeholder="First Name" size=50 maxlength=30 style="margin: 10px; display: inline-block;">
+<input type="text" class="inputs" name="name" placeholder="Last Name" size=50 maxlength=30 style="margin: 10px;"><br><br>
+
+<label>Address:</label><br>
+	<textarea name="address" class="inputs" placeholder="Street Address" style="margin: 10px; width: 74.8%;" rows="5"></textarea><br>
+        <input type="text"
+	name="address" class="inputs" placeholder="City" size=50
+	maxlength=30 style="display: inline-block; margin: 10px;">
+        <input type="text"
+	name="address" class="inputs" placeholder="Region" size=50
+	maxlength=30 style="margin: 10px;"><br>
+        <input type="text" class="inputs"
+	name="address" placeholder="Postal/Zip Code" size=50
+	maxlength=30 style="display: inline-block; margin: 10px;">
+	<select option="country" class="inputs" style="margin: 10px; width: 429px;"></option>
+	<option value="india" selected>INDIA</option>
+	<option value="america">AMERICA</option>
+	<option value="australia">AUSTRALIA</option>
+	<option value="new zealand">NEW ZEALAND</option>
+	<option value="china">CHINA</option>
+	</select><br><br>
+
+<label>Email:</label><br><input type="text" class="inputs" name="email" placeholder="Enter your email"
+	value="" size=50 maxlength=30 style="margin: 10px;"><br><br>
+
+<label>Phone:</label><br><input type="text" class="inputs" name="phone"
+	value="" placeholder="Enter your phone number" size=50 maxlength=30 style="margin: 10px;"><br><br>
+
+<label>Parent/Guardian Name:</label><br><input type="text" class="inputs" name="parentname" placeholder="Enter parent name"
+	value="" size=50 maxlength=30 style="margin: 10px;"><br><br>
+
+<label>Gender:</label><br><input type="radio" name="gender"
+	value="male" checked style="margin: 10px;">Male<input type="radio"
+	name="gender" value="female" style="margin: 10px;">Female<br><br>
+
+<label>Date of Birth:</label>
+      <input type="date" class="inputs" size="25" style="margin: 10px;"><br><br>
+
+<label>Cast:</label><br>
+<input type="radio" style="margin: 10px;" name="Cast" value="SC">SC<br>
+<input type="radio" style="margin: 10px;" name="Cast" value="NT">NT<br>
+<input type="radio" style="margin: 10px;" name="Cast" value="OBC">OBC<br>
+<input type="radio" style="margin: 10px;" name="Cast" value="OPEN">OPEN<br>
+<input type="radio" style="margin: 10px;" name="Cast" value="EWS">EWS<br><br>
+
+
+<label>Hostel Required:</label>
+<input type="checkbox"
+	name="hostel" value="hostel" style="margin: 10px;"><br><br>
+
+<label>Upload Documents:</label><input type=file name=file-name size=10 style="margin: 10px;"><br><br>
+	<input type=hidden name=hidden-box value="hidden form data" style="margin: 10px;">
+	<input type="submit" value="Submit" id="submit">&nbsp;&nbsp;<input type="submit" value="Reset" id="reset">
+	<br><br>
+
+</form>
+</feildset>
+</body>
+</html>
